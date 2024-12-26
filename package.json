@@ -1,0 +1,36 @@
+{
+  "name": "@telescopic-text/react",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "scripts": {
+    "build": "tsup index.tsx --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "keywords": [],
+  "author": "Okan Bilal Balcı",
+  "homepage": "https://github.com/okanbilal/telescopic-text",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/okanbilal/telescopic-text"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.11",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
