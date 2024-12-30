@@ -51,7 +51,7 @@ const MyComponent: React.FC = () => {
 const data = [
   "Once upon a time, ",
   {
-    word: "in the heart of a misty mountain range",
+    word: "in the mountain range",
     expandTo: [
       "in the heart of a misty mountain range, there lived a ",
       {
@@ -64,7 +64,7 @@ const data = [
   },
   " Ignis dwelled in a cavern ",
   {
-    word: "so deep and vast.",
+    word: "so deep.",
     expandTo: [
       "so deep and vast that it echoed with the whispers of ancient winds and the soft hum of magic."
     ]

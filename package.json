@@ -1,7 +1,7 @@
 {
   "name": "@telescopic-text/react",
+  "description": "A React component for telescopic text.",
   "version": "1.0.0",
-  "license": "MIT",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -15,12 +15,21 @@
     "build": "tsup index.tsx --format cjs,esm --dts",
     "lint": "tsc"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "telescopic",
+    "interactive-text",
+    "expandable-text"
+  ],
   "author": "Okan Bilal Balcı",
+  "license": "MIT",
   "homepage": "https://github.com/okanbilal/telescopic-text",
   "repository": {
     "type": "git",
     "url": "https://github.com/okanbilal/telescopic-text"
+  },
+  "bugs": {
+    "url": "https://github.com/okanbilal/telescopic-text/issues"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.11",
