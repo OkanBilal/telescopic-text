@@ -3,7 +3,7 @@
 [![npm](https://img.shields.io/npm/v/@telescopic-text/react)](https://www.npmjs.com/package/@telescopic-text/react)
 [![License](https://img.shields.io/npm/l/@telescopic-text/react)](LICENSE)
 
-**TelescopicText** is a React component inspired by [TelescopicText.org](https://www.telescopictext.org/) and the principles outlined in Howard Rheingold's seminal work, [*Tools for Thought*](https://www.rheingold.com/texts/tft/). It embodies the idea of creating tools that extend our ability to explore, express, and communicate complex ideas interactively.
+**TelescopicText** is a React component inspired by [telescopictext.org](https://www.telescopictext.org/) and the principles outlined in Howard Rheingold's seminal work, [Tools for Thought](https://www.rheingold.com/texts/tft/). It embodies the idea of creating tools that extend our ability to explore, express, and communicate complex ideas interactively.
 
 By enabling text to progressively expand and reveal layers of meaning, **TelescopicText** serves as both a creative medium and a thinking tool. It’s perfect for crafting educational content, interactive stories, or interfaces that prioritize clarity and discovery, turning text into an evolving and interactive experience.
 
