@@ -21,7 +21,11 @@
     "interactive-text",
     "expandable-text"
   ],
-  "author": "Okan Bilal Balcı",
+  "author": {
+    "name": "Okan Bilal Balcı",
+    "email": "hi@okanbilal.com",
+    "url": "https://okanbilal.com"
+  },
   "license": "MIT",
   "homepage": "https://github.com/okanbilal/telescopic-text",
   "repository": {
