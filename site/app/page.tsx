@@ -41,7 +41,7 @@ const Home = () => {
         <pre className="text-sm text-black bg-slate-50 rounded shadow-sm shadow-slate-300 py-3 px-2 relative">
           <code>npm i @telescopic-text/react</code>
         </pre>
-        <CopyButton content="npm install telescopic-text-react" />
+        <CopyButton content="npm i @telescopic-text/react" />
       </div>
       <div className="max-w-3xl mx-auto ">
         <p className="font-semibold text-lg mb-2">Usage</p>
