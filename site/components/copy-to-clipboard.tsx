@@ -32,7 +32,7 @@ const CopyButton = ({ content }: CopyButtonProps) => {
       )}
       <button
         onClick={handleCopy}
-        className=" px-2 py-1 text-sm  focus:outline-none"
+        className=" px-2 py-1 text-sm  focus:outline-hidden"
       >
         <Copy />
       </button>

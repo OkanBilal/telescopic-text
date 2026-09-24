@@ -96,7 +96,7 @@ const TelescopicText: React.FC<TelescopicTextProps> = ({
     });
   }
 
-  function renderItem(item: TelescopicItem, key: string): JSX.Element {
+  function renderItem(item: TelescopicItem, key: string): React.JSX.Element {
     if (typeof item === "string") {
       return (
         <span key={key} className={baseClassName}>
@@ -124,7 +124,7 @@ const TelescopicText: React.FC<TelescopicTextProps> = ({
     );
   }
   
-  function renderDataNode(item: TelescopicTextNodeData, key: string): JSX.Element {
+  function renderDataNode(item: TelescopicTextNodeData, key: string): React.JSX.Element {
     const isExpanded = expandedKeys.includes(key);
     const isClicked = clickedKeys.includes(key);
 

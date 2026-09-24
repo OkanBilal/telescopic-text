@@ -22,7 +22,7 @@ const Home = () => {
           <Link href={"https://github.com/okanbilal/telescopic-text"}>
             <Button
               leftIcon={<Github color="#fff" />}
-              className=" bg-black shadow-sm  shadow-slate-300 hover:shadow-slate-300 hover:shadow-lg text-white rounded-md px-1 py-2 sm:px-3 sm:py-2 border border-neutral-800 text-sm font-medium mr-4 transition-all duration-200"
+              className=" bg-black shadow-xs  shadow-slate-300 hover:shadow-slate-300 hover:shadow-lg text-white rounded-md px-1 py-2 sm:px-3 sm:py-2 border border-neutral-800 text-sm font-medium mr-4 transition-all duration-200"
             >
               See on GitHub
             </Button>
@@ -30,7 +30,7 @@ const Home = () => {
           <Link href={"https://www.npmjs.com/package/@telescopic-text/react"}>
             <Button
               leftIcon={<Npm color="#fff" />}
-              className=" bg-slate-50 font-mono hover:shadow-lg  text-black  rounded-md px-1 py-2 sm:px-3 sm:py-2.5  shadow-slate-300 shadow text-sm font-medium transition-all duration-200"
+              className=" bg-slate-50 font-mono hover:shadow-lg  text-black  rounded-md px-1 py-2 sm:px-3 sm:py-2.5  shadow-slate-300 shadow-sm text-sm font-medium transition-all duration-200"
             >
               v1.0.1
             </Button>
@@ -38,7 +38,7 @@ const Home = () => {
         </div>
       </div>
       <div className="relative max-w-3xl mx-auto mb-16">
-        <pre className="text-sm text-black bg-slate-50 rounded shadow-sm shadow-slate-300 py-3 px-2 relative">
+        <pre className="text-sm text-black bg-slate-50 rounded-sm shadow-xs shadow-slate-300 py-3 px-2 relative">
           <code>npm i @telescopic-text/react</code>
         </pre>
         <CopyButton content="npm i @telescopic-text/react" />
@@ -51,7 +51,7 @@ const Home = () => {
         </p>
       </div>
       <div className="max-w-3xl mx-auto relative">
-        <pre className="text-sm  tracking-tight text-black bg-slate-50 rounded shadow-sm shadow-slate-300 p-2 overflow-x-auto whitespace-pre-wrap break-words ">
+        <pre className="text-sm  tracking-tight text-black bg-slate-50 rounded-sm shadow-xs shadow-slate-300 p-2 overflow-x-auto whitespace-pre-wrap wrap-break-word ">
           <code>
             {`import TelescopicText from "@telescopic-text/react";
   const text = [
